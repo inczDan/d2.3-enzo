@@ -1,0 +1,271 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  height: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.barra-sup{
+    position:fixed;
+    display: inline-block;
+    padding: 40px;
+    width: 100%;
+    height: 40px;
+    margin:-60px;
+    text-align: center;
+    border: 0px none;
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom, #ffffff , #3bb895 60%);  
+}
+.color1{
+  color:black;
+}
+span {
+  color:#ffffff;
+}
+.titulo:hover{
+  cursor: pointer;
+}
+.titulo{
+  position:relative;
+  left:-490px;
+  border:0px none;
+  background-color:transparent;
+  margin:0px;
+  font-size:20px;
+}
+.navegacao{
+  cursor: pointer;
+  width:165px;
+  height:30px;
+  font-size: 28px;
+  border:0px none;
+  border-radius: 20px;
+  background-color:transparent;
+  color:#f0f4f7;
+
+}
+.apresen{
+  font-size:28px;
+  font-weight:lighter;
+  color:#4ccfaa;
+  margin-left: 0rem;
+  margin-bottom:250px;
+  position:relative;
+  top:220px;
+  left: 20rem;
+}
+.container{
+  margin-top: 130px;
+  color:#434359;
+  margin-left: 20rem;
+  width: 700px;
+}
+
+
+#aha2{
+  text-align:justify;
+  font-weight: lighter;
+  color:#434359;
+  line-height:2rem;
+  font-size: 28px;
+  margin-left: 20rem;
+  width: 615px;
+  letter-spacing: 2.0pt
+}
+.navegacao:hover,.botao:hover {
+
+  background-color: #05fa63;
+}
+
+.botao{
+  background-color: #3bb895;
+  color: #ffff;
+  height: 60px;
+  width: 260px;
+  margin-left:20rem ;
+  font-size: 20px;
+  padding:0px 50px;
+  border: 40px;
+  border-radius: 5px;
+}
+.sup1{
+  color:#7d7676;
+  text-align:left;
+  position:relative;
+  margin-left: 20rem;
+  margin-right:12rem;
+}
+.pergunta{
+  color: #000;
+  position: relative;
+  top:190px;
+  margin: -215px; 
+  z-index: -1;
+}
+.sobre{
+  position: relative;
+  left: 18px;
+  top:140px;
+  margin: 0px;
+  margin-left: 40rem;
+  margin-right:10rem;
+  color:#05fa63;
+  z-index: -1;
+}
+.enzode-lado{
+  position:relative;
+  display:inline-block;
+  margin-left:300px;
+  bottom:-100px;
+  z-index: -1;
+}
+.img{
+  margin-left: 33rem;
+  margin-right: 20rem;
+}
+.enzoimg{
+  margin-left: 10rem;
+}
+.inf{
+  position: relative;
+  top:-320px;
+  margin: 0px;
+  margin-left: 41rem;
+  margin-right:40rem;
+  padding: 10px;
+  z-index: -1;
+  background-color: #deefd54d;
+  border-radius:5px 42px 15px 42px ;
+  box-shadow:10px 2px 10px 4px #3bb895;
+}
+.linhagrande{
+  list-style: none;
+  display:inline-block;
+  background-color:#05fa63;
+  border-radius: 50px;
+  position: relative;
+  top:-15px;
+  left:35px;
+  height: 5px;
+  width: 130px;
+}
+.linhamedia{
+  list-style: none;
+  display:inline-block;
+  background-color:#05fa63;
+  border-radius: 50px;
+  position: relative;
+  top:-15px;
+  left:45px;
+  height: 4px;
+  width: 30px;
+}
+.linhapequena{
+  list-style: none;
+  display:inline-block;
+  background-color:#05fa63;
+  border-radius: 50px;
+  position: relative;
+  top:-15px;
+  left:55px;
+  height: 3px;
+  width: 15px;
+}
+.inf2{
+  color: #000;
+  text-align: left;
+  margin:40px;
+}
+.titulo-projeto{
+  z-index:-1;
+  position:relative;
+  color:#73dd92;
+  top:-130px;
+  left:900px;
+}/*abaixo estilização dos icones do projeto */
+.icon-studio{
+  z-index:-1;
+  display:inline-block;
+  position: relative;
+  left:230px;
+  top:210px;
+}
+.icon-marcas{
+  z-index:-1;
+  display:inline-block;
+  position: relative;
+  left:890px;
+  top:220px;
+}
+.icon-ux{
+  z-index:-1;
+  display:inline-block;
+  position: relative;
+  left:1640px;
+  top:225px;
+}
+/*fim estilização icones projeto*/
+/* abaixo estilização listas de projetos*/
+.lista-projetos{
+  z-index:-1;
+  display: inline-block;
+  position:relative; 
+  list-style: none;
+  text-align: justify;
+}
+.lista-studio{
+  margin-left:30px ;
+  margin-right: 1700px;
+  padding-top: 130px;
+  padding-bottom:50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 50px 22px 10px;
+  box-shadow:10px 14px 20px 10px #e1efe7;
+  border:5px solid #cfeacd;
+}
+.lista-marcas{
+  margin-left:750px ;
+  margin-right: 900px;
+  padding-top: 130px;
+  padding-bottom:77px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 50px 22px 10px;
+  box-shadow:10px 14px 20px 10px #e1efe7;
+  border:5px solid #cfeacd;
+}
+#marcas-lista{
+  position:relative;
+  top:-387px;
+}
+.lista-uxcase{
+  margin-left:1600px ;
+  margin-right: 40px;
+  padding-top: 130px;
+  padding-bottom:77px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 50px 22px 10px;
+  box-shadow:10px 14px 20px 10px #e1efe7;
+  border:5px solid #cfeacd;
+}
+#uxcase{
+  position:relative;
+  top:-775px;
+}
+/*fim estilização lista de projetos*/
+.titulo-habilidades{
+  position: relative;
+  color:#73dd92;
+  top:-480px;
+  left:900px;
+}
+.lista-de-habilidades{
+  position:relative;
+  text-align: center;
+  
+}
