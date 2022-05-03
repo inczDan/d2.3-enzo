@@ -1,18 +1,26 @@
 html{
   margin:0px;
 }
-.barra-sup{
+.barra-sup {
+  z-index:5;
+    display: flex;
     text-align: right;
     text-decoration: none;
-    position:fixed;
+    position: fixed;
     padding: 40px;
-    width: 100%;
+    width: 99%;
     height: 80px;
-    margin:-40px;
-    margin-left:-45px;
+    margin: -35px;
+    margin-left: -30px;
     border: 0px transparent;
     border-radius: 2000px;
-    background-image: linear-gradient(to top, #ffffff , #3bb895 60%);  
+    background-image: linear-gradient(to top, #ffffff , #3bb895 60%);
+}
+#link-ancora{
+  text-decoration: none;
+}
+#contato{
+  cursor:pointer;
 }
 .navbar{
   display: inline-block;
@@ -34,7 +42,7 @@ html{
 .h2-free-lancer{
   z-index:-1;
   color:#ffffff;
-  display: inline-block;
+  display: flex;
   width: 130px;
   padding-left: 7px;
   font-size: 30px;
@@ -45,7 +53,6 @@ html{
   color:#000000;
 }
 .area-container{
-  z-index:-1;
   display:inline-block;
   height: 800px;
 }
@@ -59,7 +66,7 @@ html{
   height: 700px;
 }
 .container{
-  z-index:-1;
+  
   text-align:justify;
   font-family:'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
   font-weight: lighter;
@@ -88,11 +95,10 @@ html{
   font-size: 17px;
 }
 .paragrafo-container{
-  color:#646f87;;
+  color:#646f87;
   font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 .botao-contratar{
-  z-index:-1;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   position:relative;
   display: inline-block;
@@ -108,7 +114,8 @@ html{
   text-decoration: none;
 }
 .icones-sociais{
-  z-index:-1;
+  text-align: center;
+  z-index:1;
   border: 1px solid #6087dd;
   border-radius: 10px;
   position:absolute;
@@ -116,7 +123,6 @@ html{
   padding: 10px 10px;
 }
 .icone-fb{
-  text-align: center;
   display: block;
   width: 30px;
   height: 25px;
@@ -143,23 +149,46 @@ html{
 /* encerramento primeira parte*/
 .container-dois{
   align-items: center;
-  background:#b0bcd6;
   display:flex;
   height: 690px;
   width: 1900px;
   margin:-10px;
 }
-.enzo-de-lado{
+.enzo-de-lado {
   align-items: center;
   display: flex;
-  float:left;
-  margin:30px 10px 30px 300px;
+  float: left;
+  margin: 10px 50px 30px 430px;
   height: 600px;
+}
+.molde-enzo{
+  display: flexbox;
+  height: 200px;
+  width: 100px;
+  border:10px solid #32c89d;
+  border-left:15px solid #32c89d;
+  border-radius: 15px solid #32c89d;
 }
 .enquadramento-texto{
   text-align: justify;
-  display: flexs;
+  display: inline;
   align-items: center;
-  margin:100px 490px 0px 10px;
-  padding: 10px 200px;
+  margin:100px 580px 0px 1px;
+  padding: 10px 10px;
+}
+.h2-about{
+  z-index: -1;
+ color:#32c89d;
+ text-align: justify;
+ font-size: 22px;
+}
+.h2-titulo{
+ font-size:36px;
+ text-align: justify;
+}
+.contexto-texto{
+  font-size: 18px;
+  text-align: justify;
+  margin:0px 375px 0px 0px;
+  color:#84868c;
 }
