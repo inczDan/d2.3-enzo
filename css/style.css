@@ -1,6 +1,10 @@
 html{
+  scroll-behavior: smooth;
   box-sizing: border-box;
   margin:0px;
+}
+.ajuste{
+  display:flex;
 }
 .barra-sup {
   z-index:5;
@@ -15,7 +19,7 @@ html{
     margin-left: -30px;
     border: 0px transparent;
     border-radius: 2000px;
-    background-image: linear-gradient(to top, #ffffff , #3bb895 60%);
+    background: linear-gradient(to top, #ffffff , #3bb895 60%);
 }
 #link-ancora{
   text-decoration: none;
@@ -29,6 +33,10 @@ html{
 }
 .li-navbar{
   display:inline-block;
+}
+.navegacao:hover{
+  color:#000000;
+
 }
 .navegacao{
   z-index:-1;
@@ -146,7 +154,7 @@ html{
   height: 35px;
   margin:7px 2px;
 }
-/* encerramento primeira parte*/
+/* encerramento primeira parte(APRESENTAÇÃO)*/
 .container-dois{
   align-items: center;
   display:flex;
@@ -204,7 +212,7 @@ progress::-webkit-progress-value{
 ::-webkit-progress-bar {
   background-color:#d3d3d3;
 }
-/* encerramento segunda parte*/
+/* encerramento segunda parte(ABOUT)*/
 .container-projetos{
   align-items: center;
   display:flex;
@@ -297,4 +305,54 @@ progress::-webkit-progress-value{
 .title-service{
   margin-bottom:20px;
   margin-top:10px;
+}
+/* parte service finalizada
+inicio rodapé */
+.rodape{
+  align-items: center;
+  display:flex;
+  height: 140px;
+  width: 1900px;
+  margin-top:290px;
+  background:#ffffff;
+}
+.h2-free-rodape{
+  color:#32c89d;
+  display: inline-block;
+  width: 130px;
+  padding-left: 7px;
+  font-size: 20px;
+  margin-left:840px;
+  margin-bottom: 200px;
+  font-weight:bold;
+}
+.email-contato{
+  display:inline-block;
+  margin-left:-290px;
+  font-size:40px ;
+}
+.lista-rodape{
+  display:inline-block;
+  list-style: none;
+}
+.li-rodape{
+  display:inline-block;
+}
+.rodape-navegacao{
+  text-align: center;
+  display:flex;
+  color:#000000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1px;
+  height: 0px;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+.rodape-button{
+  text-align: center;
+  height: 200px;
+}
+#link-insta{
+  font-size: 23px;
 }
